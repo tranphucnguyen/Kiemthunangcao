@@ -14,6 +14,7 @@ class AlgorithmUtilsTest {
         assertEquals(1, AlgorithmUtils.factorial(1));
         assertEquals(120, AlgorithmUtils.factorial(5));
         assertThrows(IllegalArgumentException.class, () -> AlgorithmUtils.factorial(-1));
+        assertThrows(IllegalArgumentException.class, () -> AlgorithmUtils.factorial(Integer.MIN_VALUE)); // Kiểm thử số âm lớn
     }
 
     @Test
@@ -23,11 +24,13 @@ class AlgorithmUtilsTest {
         assertTrue(AlgorithmUtils.isPrime(2));
         assertTrue(AlgorithmUtils.isPrime(13));
         assertFalse(AlgorithmUtils.isPrime(15));
+        assertFalse(AlgorithmUtils.isPrime(-3)); // Kiểm thử số nguyên tố âm
     }
+
     @Test
     void testIsPrimeAdditionalCases() {
         assertFalse(AlgorithmUtils.isPrime(4)); // Chia hết cho 2
         assertFalse(AlgorithmUtils.isPrime(9)); // Chia hết cho 3
+        assertTrue(AlgorithmUtils.isPrime(97)); // Số nguyên tố lớn
     }
-
 }
