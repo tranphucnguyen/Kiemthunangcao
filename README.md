@@ -10,7 +10,8 @@
 ### AlgorithmUtils.java
 ![image](https://github.com/user-attachments/assets/614ed64d-89c2-45a7-aa92-6275fd592a48)
 ### AlgorithmUtilsTest.java
-![image](https://github.com/user-attachments/assets/0343e608-850a-44d5-bc42-b7594c2f3eac)
+![image](https://github.com/user-attachments/assets/f2930a90-9a9e-418d-a9c0-87b588b97bf0)
+
 ## 3.Kết quả thực nghiệm
 ![image](https://github.com/user-attachments/assets/9be3006d-c953-4982-a74f-90627c2182af)
 ## 4.Các bước triển khai
